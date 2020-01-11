@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Markdown</title>
+    </head>
+    <body>
+        <header>
+            <h1>Markdown</h1>
+        </header>
+        <main>
+            <div>
+                <h2>Qu'est le <strong>MarkDown</strong> </h2>
+                <p>
+                    <b>Markdown</b> est un langage de balisage qui a pour but est d'offrir une syntaxe facile à lire et à écrire.<br/>
+                    <br/>
+                    C’est-à-dire qu’un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage
+                    Markdown est donc un moyen d’ajouter du formatage à un texte (à la manière du HTML) mais sans utiliser de menus ou de clics de souris: juste en utilisant une ponctuation spéciale !
+                </p>
+            </div>
+            <div>
+                <h2>La syntaxe</h2>
+                <div class="titre">
+                    <h3>Titre</h3>
+                    <div>
+                        <h1># This is an h1 tag</h1>
+                        <h2>## This is an h2 tag</h2>
+                        <h3>### This is an h3 tag</h3>
+                        <h6>###### This is an h6 tag</h6>
+                    </div>
+                </div>
+                <div class="emphasis">
+                    <h3>Emphasis</h3>
+                    <p>
+                        <i>*This text will be italic*</i><br>
+                        <i>_This will also be italic_</i><br>
+                        <br>
+                        <b>**This text will be bold**</b><br>
+                        <b>__This will also be bold__</b><br>
+                        <br>
+                        <i>_You <b>can</b> combine them_</i><br>
+                    </p>
+                </div>
+                <div class="lists">
+                    <h3>Lists</h3>
+                    <div>
+                        <h4>Unordered</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Item 2a</li>
+                                    <li>Item 2b</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Ordered</h4>
+                        <ol>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3
+                                <ol>
+                                    <li>Item 3a</li>
+                                    <li>Item 3b</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="images">
+                    <h3>Images</h3>
+                    <p>
+                        ![GitHub Logo](/images/logo.png)<br>
+                        Format: ![Alt Text](url)
+                    </p>
+                    <img src="https://gifimage.net/wp-content/uploads/2017/11/gif-html-4.gif" alt="html">
+                </div>
+                <div class="links">
+                    <h3>Links</h3>
+                    <p>
+                        Link to <a href="#">GitHub</a> !
+                    </p>
+                </div>
+                <div class="tables">
+                    <h4>Tables</h4>
+                    <table>
+                        <tr>
+                            <th>First Header</th>
+                            <th>Second Header</th>
+                        </tr>
+                        <tr>
+                            <td>Content from cell 1</td>
+                            <td>Content from cell 2</td>
+                        </tr>
+                        <tr>
+                            <td>Content in the first column</td>
+                            <td>Content in the second column</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h4>Source</h4>
+            <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a>
+        </footer>
+    </body>
+</html>
