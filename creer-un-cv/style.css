@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+    font-size: 17px;
+    font-family: "Roboto", "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(139, 139, 139);
+}
+
+.description {
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 50px;
+    padding: 20px 20% 20px 40px;
+}
+
+.description > h1 {
+    font-size: 250%;
+    font-family: "Montserrat", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+}
+
+.description > ul > li {
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    padding-top: 50px;
+}
+
+section > div:first-child{
+    margin-right: 2.5%;
+    padding-right: 2.5%;
+    border-right: 1px solid black;
+    font-family: "Montserrat", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+    font-size: 125%;
+    text-transform: uppercase;
+    text-align: right;
+    width: 257px;
+}
+
+section > div:first-child > h3{
+    margin: 0;
+}
+
+section > div:last-child > article{
+    display: flex;
+}
+
+section > div:last-child > article > h5{
+    font-size: 1rem;
+    margin: 0;
+}
+
+section > div:last-child > article > p{
+    font-size: 100%;
+    margin: 0;
+    margin-left: 70px;
+    margin-bottom: 0.5em;
+}
+
+.etudes > div:last-child > article > h5 {
+    width: 110px;
+}
+
+.languages > div:last-child > article > label{
+    width: 150px;
+}
+
+.languages > div:last-child {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.languages > div:last-child > article > progress{
+    width: 100%;
+}
+
+.jobs > div:last-child > article > h5 {
+    width: 140px;
+}
+
+.competences p {
+    margin-left: 0 !important;
+}
+
+.atouts p {
+    margin-left: 0 !important;
+}
+
+.loisirs p {
+    margin-left: 0 !important;
+}
