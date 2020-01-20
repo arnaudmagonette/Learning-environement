@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+https://arnaudmagonette.github.io/Learning-environement/
+
 # La Prairie : HTML & CSS
 
 ## Exercices
@@ -18,8 +19,3 @@
 [7. Star Wars](/star-wars/README.md)
 
 [8. Présentation](/presentation/README.md)
-=======
-# Learning-environement
-
-https://arnaudmagonette.github.io/Learning-environement/
->>>>>>> master
